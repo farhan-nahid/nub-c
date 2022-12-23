@@ -10,10 +10,8 @@ Write a C program that will find the largest number among 10 user given numbers 
 
 int main()
 {
-    double arr[10], result=0, temp=0; 
-    int i=0, j=0;
-    
-
+    int arr[10], i=0, j=0, result=0, temp=0;
+   
     for(; i<10; i++)
     {
         printf("Enter a Number \t");
